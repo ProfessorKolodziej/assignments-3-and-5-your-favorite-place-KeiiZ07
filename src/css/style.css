@@ -32,6 +32,7 @@
 			font-style: normal;
 			max-width: 50%;
 			max-height: 100%;
+			color: #0b1784;
 			display: flex;
 			flex-wrap: wrap;
 			align-items: left;
@@ -42,17 +43,25 @@
 
 		.img-text {
 			display: flex;
+			flex-wrap: wrap;
 			flex-flow: row wrap;
+			
 			font-family: "Istok Web", sans-serif;
 			font-weight: 400;
 			text-align: left;
-			max-width: 40%;
+			max-width: 100%;
 			text-indent: 2em;
+			
 
 		}
 		.column {
-			margin: 10px;
-			border: 1px solid #ccc
+			max-width: 50%;
+			min-width: 45%;
+   	 		padding: 100px;
+			justify-content: space-around；
+    		border: 1px solid #ccc;
+   			box-sizing: border-box;
+			
 		}
 		
 		.centerpic {
@@ -74,39 +83,40 @@
 
 
 	  .text-img1 {
-		width: 300px;
-		height: 200px;
-		margin-left: -20px;
+		width: 380px;
+		height: 280px;
+		margin-left: -50px;
+		margin-top: -34px;
+		
 	}
 	  .text-img2{
-		width: 300px;
-		height: 180px;
-		margin-left: -20px;
+		width: 400px;
+		height: 250px;
+		margin-left: -50px;
 	  }
 
 	  .text-img3{
-		width: 300px;
-		height: 180px;
-		margin-left: -20px;
+		width: 400px;
+		height: 250px;
+		margin-left: -50px;
 	  }
 
 	  .text-img4{
-		width: 300px;
-		height: 180px;
-		margin-left: -20px;
+		width: 400px;
+		height: 250px;
+		margin-left: -50px;
 	  }
 
 	  .text-img5{
 		width: 300px;
 		height: 180px;
-		margin-left: -20px;
+		margin-left: -50px;
 	  }
 
 	  .mixpic {
-		width: 400px;
-		height: 300px;
+		width: 500px;
+		height: 380px;
 		margin-bottom: -10px;
-		margin-left: 20px;
 
 	  }
 	  
@@ -132,5 +142,11 @@
 		font-size: 2em;
 		margin-bottom: 0;
 		text-align: center;
+	  }
+
+	  .list {
+		padding-left: 0px;
+		max-width: 100%;
+
 	  }
 	
